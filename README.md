@@ -18,8 +18,7 @@ MPIN Validator is a Python-based utility that evaluates the strength of a 4-digi
 
 Ensure you have Python installed (version 3.6 or later). Clone the repository and navigate to the project directory:
 ```sh
-$ git clone https://github.com/your-repo/mpin-validator.git
-$ cd mpin-validator
+$ git clone https://github.com/your-repo/mpin_check.git
 ```
 
 ## Usage
@@ -48,7 +47,6 @@ print(result)  # Output: ('WEAK', ['DEMOGRAPHIC_DOB_SELF'])
 mpin-validator/
 │── src/
 │   ├── mpin_validator.py  # Main logic for evaluating MPIN
-│── tests/
 │   ├── test_mpin_validator.py  # Unit tests
 │── requirements.txt  # Dependencies (if any)
 │── README.md  # Documentation
@@ -76,8 +74,6 @@ The test suite covers:
 | 6271  | 01011990 | 02021991   | 03031992   | ('STRONG', []) |
 | 777777| -        | -          | -          | ('WEAK', ['COMMONLY_USED']) |
 
-## Contribution
-If you'd like to improve the project, feel free to fork the repository and submit pull requests.
 
 ## License
 This project is licensed under the MIT License.
