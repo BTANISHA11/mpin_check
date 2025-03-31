@@ -1,6 +1,6 @@
 import re
 
-# List of commonly used MPINs (can be extended)
+# List of commonly used MPINs (can be extended for more use cases)
 COMMON_MPIN_4 = {"1234", "1111", "0000", "9999", "1212", "1122", "7777", "2580", "5555"}
 COMMON_MPIN_6 = {"123456", "111111", "000000", "999999", "121212", "654321", "777777"}
 
